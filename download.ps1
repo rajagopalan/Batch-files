@@ -1,4 +1,4 @@
-$sdc_url = $env:sdc_ur
+$sdc_url = $env:sdc_url
 $console_url = $env:console_url
 $build = $env:sdc_file
 $pack = $env:console_file
