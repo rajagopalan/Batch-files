@@ -65,4 +65,4 @@ if(!(Test-Path -Path $destination)){
 
 Copy-Item $downloadDir\* -Destination $destination
 
-#write-host $destination
+write-host $destination
