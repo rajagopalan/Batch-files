@@ -30,3 +30,5 @@ for /f %%i in ('dir /b "D:\ftproot\call_center_uploads\*.*"') DO (
     )
 	rem robocopy \\172.16.40.215\d$\ftproot\call_center_uploads \\321538-FL-Clus\File03\assets\assets\www\media\ /MOV /FP /LOG:%robocopyLog%
 ) else ( blat "%scanfile%" -to "rajagopalanr@support.com,dinesh.bandaru@support.com" -f "ftpupload@support.com" -Subject "Malicious files found in call center uploads" )
+
+echo "it's done"
